@@ -1,4 +1,7 @@
-# test coverage for  cordova-plugin-alipay (v0.9.1)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-alipay.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-alipay) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-alipay.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-alipay)
+# npmtest-cordova-plugin-alipay
+
+#### basic test coverage for  cordova-plugin-alipay (v0.9.1)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-alipay.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-alipay) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-alipay.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-alipay)
+
 #### 支付宝支付插件，alipay payment
 
 [![NPM](https://nodei.co/npm/cordova-plugin-alipay.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cordova-plugin-alipay)
@@ -32,43 +35,29 @@
 ```json
 
 {
+    "version": "0.9.1",
+    "name": "cordova-plugin-alipay",
     "cordova_name": "AlipayPlugin",
-    "dependencies": {},
     "description": "支付宝支付插件，alipay payment",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "22c12ddeeab5752d01b37e5d9fe2b0147ecb3f13",
-        "tarball": "https://registry.npmjs.org/cordova-plugin-alipay/-/cordova-plugin-alipay-0.9.1.tgz"
-    },
-    "engines": [
-        {
-            "name": "cordova",
-            "version": ">=3.4.0"
-        }
-    ],
-    "gitHead": "4d2c60fa8dd380ba780439045cdf78706271da1b",
+    "license": "MIT license",
+    "repo": "https://github.com/charleyw/cordova-plugin-alipay",
     "issue": "https://github.com/charleyw/cordova-plugin-alipay/issues",
     "keywords": [
         "cordova",
         "alipay",
         "payment"
     ],
-    "license": "MIT license",
-    "maintainers": [
-        {
-            "name": "charleyw"
-        }
-    ],
-    "name": "cordova-plugin-alipay",
-    "optionalDependencies": {},
     "platforms": [
         "android",
         "ios"
     ],
-    "repo": "https://github.com/charleyw/cordova-plugin-alipay",
-    "scripts": {},
-    "version": "0.9.1"
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.4.0"
+        }
+    ],
+    "bin": {}
 }
 ```
 
